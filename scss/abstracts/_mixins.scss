@@ -39,3 +39,25 @@
   color: $mainColor;
 }
 
+@mixin media-sm {
+  @media only screen and (max-width: 429px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (max-width: 769px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 1369px) {
+    @content;
+  }
+}
