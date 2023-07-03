@@ -7,7 +7,51 @@
   box-sizing: border-box;
 }
 
-/* variables */ /*footer*/
+/* variables */
+.footer {
+  background-color: #f9f9fb;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__icons .social1 {
+  padding: 0.4rem;
+  transition: color 1s;
+}
+.footer__icons .social1:hover {
+  color: #fb8f1d;
+}
+.footer__icons .social2 {
+  padding: 0.4rem;
+  transition: color 1s;
+}
+.footer__icons .social2:hover {
+  color: #fb8f1d;
+}
+.footer__icons .social3 {
+  padding: 0.4rem;
+  transition: color 1s;
+}
+.footer__icons .social3:hover {
+  color: #fb8f1d;
+}
+.footer__icons .social4 {
+  padding: 0.4rem;
+  transition: color 1s;
+}
+.footer__icons .social4:hover {
+  color: #fb8f1d;
+}
+.footer__icons .social5 {
+  padding: 0.4rem;
+  transition: color 1s;
+}
+.footer__icons .social5:hover {
+  color: #fb8f1d;
+}
+
 .header {
   /* bu yorum satırı css dosyasına gelir*/
   display: flex;
@@ -203,7 +247,63 @@
   color: #80918e;
 }
 
-/*guide section*/
+.guide {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 2rem;
+}
+.guide__image {
+  height: 500px;
+  width: 45%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../assets/image3.png");
+}
+.guide__text {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: normal;
+}
+.guide__text--header {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: auto;
+  line-height: 50px;
+  color: #000000;
+}
+.guide__text--paragraph {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: auto;
+  line-height: 30px;
+  color: #7d7987;
+}
+.guide__text--button {
+  margin: 1rem 0px;
+  border: none;
+  background: #fb8f1d;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: auto;
+  width: 40%;
+  height: 30px;
+  color: #ffffff;
+}
+
 .home {
   margin: 1rem auto;
   width: 90%;
