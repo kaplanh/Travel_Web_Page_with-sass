@@ -1,1 +1,25 @@
 // main
+@import "./base/reset";
+@import "./abstracts/variables", "./abstracts/mixins";
+//değişkenlerim ve fonksiyonlarım
+
+// import sırası önemlidir. Ortak olan dosylara her yerden erişim sağlayabilmemiz i,çin öncelikle ortak dosyları import etmemiz gerekiyor.
+@import "./components/footer", "./components/navbar", "./components/responsive";
+@import "./sections/about", "./sections/destination", "./sections/guide",
+    "./sections/home";
+
+// font-awesome linki
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+// google font linki
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Playfair+Display&family=Rampart+One&display=swap");
+
+body {
+    background-color: $mainColor;
+    position: relative;
+}
+
+button,
+i {
+    cursor: pointer;
+}
